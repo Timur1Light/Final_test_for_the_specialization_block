@@ -68,5 +68,16 @@ sudo wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.33-1_all.deb
 ```
 sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb
 ```
+## Задание 4
+Установить и удалить deb-пакет с помощью dpkg.
+### Устанавливаем deb-пакет
+```
+wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb
+sudo dpkg -i --force-depends google-chrome-unstable_current_amd64.deb
+```
+### Удаляем deb-пакет
+```
+sudo dpkg --purge google-chrome-unstable
+```
 
 
