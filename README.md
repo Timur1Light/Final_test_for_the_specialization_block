@@ -79,5 +79,7 @@ sudo dpkg -i --force-depends google-chrome-unstable_current_amd64.deb
 ```
 sudo dpkg --purge google-chrome-unstable
 ```
+## Задание 5
+Выложить историю команд в терминале ubuntu
 
-
+![Текст с описанием картинки](./images/hystory.png)
